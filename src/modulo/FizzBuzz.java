@@ -1,6 +1,9 @@
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 package modulo;
+
+import javax.swing.JOptionPane;
+
 /**
 * Fizz Buzz
 * 
@@ -23,6 +26,15 @@ package modulo;
 **/
 public class FizzBuzz {
 public static void main(String[] args) {
-System.out.println(20);
+for (int i = 1; i < 21; i++) {
+System.out.println(i);
+if (i%3==0) {
+System.out.println("fizz");
+}else if (i%5==0) {
+	System.out.println("buzz");
+	}else if (i%3==0&&i%5==0) {
+		System.out.println("fizzbuzz");
+		}
+}
 }
 }
