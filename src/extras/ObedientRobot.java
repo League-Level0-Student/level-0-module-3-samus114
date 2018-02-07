@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
 
-public class obedientrobot {
+public class ObedientRobot {
 	static Robot rob = new Robot();
 	public static void main(String[] args) {
 
